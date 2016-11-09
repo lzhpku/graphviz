@@ -1,0 +1,22 @@
+digraph G {
+node [fontname="KaiTi"];
+course49 [label = "Web程序设计"];
+course13 [label = "操作系统实习"];
+course17 [label = "数字逻辑设计"];
+course19 [label = "微机原理"];
+course12 [label = "操作系统"];
+course45 [label = "数据库系统概论"];
+course7 [label = "计算概论"];
+course8 [label = "程序设计实习"];
+course73 [label = "互联网数据挖掘"];
+course46 [label = "数据库原理与技术"];
+course7 -> course49;
+course12 -> course13;
+course7 -> course19;
+course17 -> course19;
+course7 -> course12;
+course19 -> course12;
+course7 -> course8;
+course8 -> course73;
+course45 -> course46;
+}
